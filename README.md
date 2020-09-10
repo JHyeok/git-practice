@@ -41,7 +41,21 @@ ff7964d6511e96bd5af87d38c0789be3f7bca138 Init
 `git push -f -u origin feature`
 
 - GitHub 플랫폼을 이용해서 feature 브랜치를 master 브랜치와 합친다.
-`GitHub compare and pull request`
+`GitHub Compare and Pull Request`
 
 - 직접 실습을 통해서 했는데 여러 시행착오가 있었다.
 - push 하지 않은 커밋들에 대해서 squash 하는 것이 정신 건강에 이로울 것 같다.
+
+2. Pull Request에서 Merge의 방법들
+
+- Merge
+
+![Merge](./image/merge.png)
+
+- Squash and Merge
+
+![Squash-And-Merge](./image/squash-and-merge.png)
+
+- Rebase and Merge
+
+- 참고 : https://meetup.toast.com/posts/122
