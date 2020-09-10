@@ -46,7 +46,7 @@ ff7964d6511e96bd5af87d38c0789be3f7bca138 Init
 - 직접 실습을 통해서 했는데 여러 시행착오가 있었다.
 - push 하지 않은 커밋들에 대해서 squash 하는 것이 정신 건강에 이로울 것 같다.
 
-2. Pull Request에서 Merge의 방법들
+### 2. Pull Request에서 Merge의 방법들
 
 - Merge
 
