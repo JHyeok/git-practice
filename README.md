@@ -58,4 +58,6 @@ ff7964d6511e96bd5af87d38c0789be3f7bca138 Init
 
 - Rebase and Merge
 
+![Rebase-And-Merge](./image/rebase-and-merge.png)
+
 - 참고 : https://meetup.toast.com/posts/122
