@@ -61,3 +61,17 @@ ff7964d6511e96bd5af87d38c0789be3f7bca138 Init
 ![Rebase-And-Merge](./image/rebase-and-merge.png)
 
 - 참고 : https://meetup.toast.com/posts/122
+
+### 3. Git Flow
+
+- `Settings-Plugins`에서 `Git Flow Integration` 플러그인 설치한다.
+
+- Windows 사용자의 경우, Git 2.6.4 이상의 버전이라면 GitFlow(AVH 버전)가 포함되어 있다.
+
+- Mac OS X 사용자의 경우, `brew install git-flow-avh`로 설치한다.
+
+- `Start Feature`로 Feature 브랜치를 만들고, 커밋하면서 Feature 작업이 완료가 되면, `Finish Feature`를 하면 된다.
+
+![git-flow](./image/git-flow.png)
+
+- 참고 : https://uxgjs.tistory.com/183
