@@ -1,10 +1,10 @@
 ### 1. 새로운 기능을 만들고 브랜치의 커밋 메시지를 합치고 수정하기
 
-- feature 브랜치 생성한다.
+- `feature` 브랜치 생성한다.
 
 `git checkout -b feature`
 
-- feature 브랜치에서 두 개의 변경사항을 적용한 커밋을 추가한다.
+- `feature` 브랜치에서 두 개의 변경사항을 적용한 커밋을 추가한다.
 - 전체의 기능을 부분적으로 쪼개서 커밋을 했다고 가정한다.
 
 `git commit -m "2의 덧셈 기능 추가"`
@@ -14,8 +14,8 @@
 `git commit -m "다른 식의 덧셈 기능 추가"`
 
 - feature 브랜치에서 위의 덧셈 기능을 하나의 커밋으로 합치려고 한다.
-- pick을 squash로 변경해주면 되는데, pick과 squash를 설정하고 저장하고 나가면 커밋을 수정하는 창이 나온다.
-- 3개의 커밋에서 b8914d1, e947fbd을 삭제하고 마지막 커밋에서 원하는 커밋 메시지로 변경한다.
+- `pick`을 `squash`로 변경해주면 되는데, `pick`과 `squash`를 설정하고 저장하고 나가면 커밋을 수정하는 창이 나온다.
+- 3개의 커밋에서 `b8914d1`, `e947fbd`을 삭제하고 마지막 커밋에서 원하는 커밋 메시지로 변경한다.
 
 `git rebase -i HEAD~3`
 
@@ -66,12 +66,28 @@ ff7964d6511e96bd5af87d38c0789be3f7bca138 Init
 
 - `Settings-Plugins`에서 `Git Flow Integration` 플러그인 설치한다.
 
-- Windows 사용자의 경우, Git 2.6.4 이상의 버전이라면 GitFlow(AVH 버전)가 포함되어 있다.
+- `Windows` 사용자의 경우, `Git 2.6.4` 이상의 버전이라면 `GitFlow(AVH 버전)`가 포함되어 있다.
 
-- Mac OS X 사용자의 경우, `brew install git-flow-avh`로 설치한다.
+- `Mac OS` 사용자의 경우, `brew install git-flow-avh`로 설치한다.
 
-- `Start Feature`로 Feature 브랜치를 만들고, 커밋하면서 Feature 작업이 완료가 되면, `Finish Feature`를 하면 된다.
+- `Start Feature`로 `Feature` 브랜치를 만들고, 커밋하면서 `Feature` 작업이 완료가 되면, `Finish Feature`를 하면 된다.
 
 ![git-flow](./image/git-flow.png)
 
-- 참고 : https://uxgjs.tistory.com/183
+- 별도의 브랜치를 만들어서 `Git Flow`의 `Start Feature`를 하고 별도의 브랜치로 전환해서 직접 `Merge`하는 방식으로도 사용한다.
+
+- 직접 머지할 때는 해당 브랜치에서 `Pull`을 해서 원격 브랜치와 싱크를 맞추어주고 진행한다.
+
+- 충돌이 나는 경우 `IntelliJ`, `WebStorm`등의 `IDE`에서 환경에서 해결한다.
+
+- `IntelliJ`, `WebStorm`등의 `IDE`에서 환경설정에서 `Git Flow` 플러그인의 옵션들을 설정할 수 있다.
+
+![git-flow-setting](./image/git-flow-setting.png)
+
+- 작업중에 다른 이슈를 처리해야 한다면 `Stash` 기능을 사용하면 된다. 작업한 내용들을 임시로 어딘가에 저장해 두고 원할 때 꺼내서 적용할 수 있다.
+
+### 4. 읽으면 도움 되는 글
+
+- [Git Flow 개념 이해하기](https://uxgjs.tistory.com/183)
+
+
