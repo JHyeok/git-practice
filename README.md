@@ -86,6 +86,14 @@ ff7964d6511e96bd5af87d38c0789be3f7bca138 Init
 
 - 작업중에 다른 이슈를 처리해야 한다면 `Stash` 기능을 사용하면 된다. 작업한 내용들을 임시로 어딘가에 저장해 두고 원할 때 꺼내서 적용할 수 있다.
 
+### 3-1. Gif Flow Release/Hotfix
+
+- 실제 서버에도 tag 정보를 적용시키기 위해서 `git push --tags origin master` 해야한다.
+
+- 아니면 git flow 설정에서 아래 그림과 같이 설정한다.
+
+![git-flow-setting-hotfix](./image/git-flow-setting-hotfix.png)
+
 ### 4. 읽으면 도움 되는 글
 
 - [Git Flow 개념 이해하기](https://uxgjs.tistory.com/183)
