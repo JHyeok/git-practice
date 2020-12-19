@@ -5,7 +5,7 @@
 =========
 
 작성자 : 김재혁 (JaeHyeok Kim)
-버전 : v1.2.3
+버전 : v1.2.4
 
 =========
 
@@ -40,5 +40,3 @@ FEAT6. GET DOGS
 FEAT7. GET CATS
 
 =========
-
-TEST
