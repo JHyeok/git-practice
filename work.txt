@@ -4,7 +4,7 @@
 
 =========
 
-작성자 : 김재혁 (JHyeok)
+작성자 : 김재혁 (JaeHyeok Kim)
 
 =========
 
@@ -37,3 +37,5 @@ FEAT5. PUBLISH TEST
 FEAT6. GET DOGS
 
 FEAT7. GET CATS
+
+=========
