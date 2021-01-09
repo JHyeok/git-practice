@@ -35,4 +35,6 @@ FEAT6. GET DOGS
 
 FEAT7. GET CATS
 
+FEAT8. GET USERS
+
 =========
