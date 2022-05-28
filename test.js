@@ -12,3 +12,5 @@ console.log('test3.js 추가');
 console.log('test4.js 추가');
 
 console.log('test5.js 추가');
+
+console.log('test6.js 추가');
