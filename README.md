@@ -94,6 +94,10 @@ ff7964d6511e96bd5af87d38c0789be3f7bca138 Init
 
 ![git-flow-setting-hotfix](./image/git-flow-setting-hotfix.png)
 
+### etc
+
+- 연습을 위한 테스트
+
 ### 4. 읽으면 도움 되는 글
 
 - [Git Flow 개념 이해하기](https://uxgjs.tistory.com/183)
