@@ -2,3 +2,5 @@ v2.4.2
 
 - WebStorm 테스트
 ++ 충돌 테스트
+
+- Rebase Merge 테스트
