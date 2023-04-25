@@ -17,4 +17,8 @@ console.log('test6.js 추가');
 
 console.log('test7.js 추가');
 
+console.log('test8.js 추가');
+
+console.log('test9.js 추가');
+
 console.log(build);
